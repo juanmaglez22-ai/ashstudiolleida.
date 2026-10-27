@@ -122,6 +122,7 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 .hero h1 .big { font-size: clamp(2.7rem, 7.6vw, 6.4rem); line-height: 0.9; }
 .hero .lede { margin-top: 1.6rem; color: var(--muted-d); max-width: 46ch; }
 .hero-cta { display: flex; flex-wrap: wrap; gap: 0.8rem; margin-top: 2.2rem; }
+.hero-cta .btn { white-space: normal; text-align: left; line-height: 1.3; }
 .facts { position: relative; z-index: 1; list-style: none; margin: clamp(2.8rem, 6vw, 4.5rem) 0 0; padding: 1.4rem 0 0; border-top: 1px solid var(--line-d); display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1.2rem 2rem; }
 .facts li { display: grid; gap: 0.2rem; font-size: 0.9rem; color: var(--muted-d); }
 .facts b { color: var(--white); font-weight: 600; font-size: 0.98rem; }
@@ -263,8 +264,8 @@ footer .logo { width: 5rem; color: var(--white); }
   <div class="wrap">
     <a href="#inicio" aria-label="ASH Studio, inicio"><span class="logo" role="img" aria-label="ASH Studio"></span></a>
     <nav class="links" aria-label="Secciones">
-      <a href="#contacto">Contacto</a>
       <a href="#instagram">Instagram</a>
+      <a href="#contacto">Contacto</a>
       <a href="#como-funciona">Cómo funciona</a>
       <a href="#resultados">Resultados</a>
       <a href="#precio">Precio</a>
@@ -282,7 +283,7 @@ footer .logo { width: 5rem; color: var(--white); }
           <h1><span class="seo">Eliminación de tatuajes con láser en Lleida</span><span class="big">Borramos tatuajes. Solo eso.</span></h1>
           <p class="lede">Somos el único estudio de Lleida dedicado solo a borrar tatuajes. Desde la primera visita te decimos cuántas sesiones vas a necesitar y cuánto te va a costar.</p>
           <div class="hero-cta">
-            <a class="btn btn-lila" href="https://wa.me/34682819573?text=Hola%2C%20vengo%20de%20la%20web%20y%20quiero%20una%20valoraci%C3%B3n%20gratuita%20de%20mi%20tatuaje" target="_blank" rel="noopener">Envía una foto de tu tatuaje<span class="dot"><svg aria-hidden="true"><use href="#wa"/></svg></span></a>
+            <a class="btn btn-lila" href="https://wa.me/34682819573?text=Hola%2C%20vengo%20de%20la%20web%20y%20quiero%20una%20valoraci%C3%B3n%20gratuita%20de%20mi%20tatuaje" target="_blank" rel="noopener">Envía una foto de tu tatuaje para una valoración gratuita<span class="dot"><svg aria-hidden="true"><use href="#wa"/></svg></span></a>
             <a class="btn btn-ghost" href="#resultados">Ver resultados</a>
           </div>
         </div>
@@ -306,26 +307,7 @@ footer .logo { width: 5rem; color: var(--white); }
     </div>
   </section>
 
-<section class="band contact-band" id="contacto">
-    <div class="wrap contact">
-      <div class="cta">
-        <h2>Mándanos una foto de tu tatuaje.</h2>
-        <p class="lede">Te respondemos por WhatsApp con una primera valoración y el precio por sesión.</p>
-        <a class="btn btn-lila" href="https://wa.me/34682819573?text=Hola%2C%20vengo%20de%20la%20web%20y%20quiero%20una%20valoraci%C3%B3n%20gratuita%20de%20mi%20tatuaje" target="_blank" rel="noopener">Escribir por WhatsApp<span class="dot"><svg aria-hidden="true"><use href="#wa"/></svg></span></a>
-      </div>
-      <div class="info">
-        <dl>
-          <div><dt>Dirección</dt><dd>Carrer Vila Antònia, 5<br>25007 Lleida<br><a href="https://www.google.com/maps/place/Ash+Studio/@41.6179546,0.631306,17z" target="_blank" rel="noopener">Ver en Google Maps</a></dd></div>
-          <div><dt>Teléfono y WhatsApp</dt><dd>682 81 95 73</dd></div>
-          <div><dt>Horario</dt><dd class="hours"><span>Lunes a viernes</span><span>9:00–20:00</span><span>Sábado</span><span>9:00–14:00</span><span>Domingo</span><span>Cerrado</span></dd></div>
-          <div><dt>Instagram</dt><dd><a href="https://www.instagram.com/ash.studio_eliminacion/" target="_blank" rel="noopener">@ash.studio_eliminacion</a></dd></div>
-        </dl>
-        <p class="zones">Atendemos a clientes de Lleida, Balaguer, Mollerussa, Tàrrega, Fraga y alrededores.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="band paper" id="instagram" style="padding-bottom:0">
+<section class="band paper" id="instagram" style="padding-bottom:clamp(2.5rem, 5vw, 4rem)">
     <div class="wrap">
       <div class="head head-row">
         <div style="display:grid;gap:0.8rem">
@@ -341,6 +323,25 @@ footer .logo { width: 5rem; color: var(--white); }
         <a href="https://www.instagram.com/ash.studio_eliminacion/" target="_blank" rel="noopener"><img src="img/latido-cuello-2-sesiones.jpg" loading="lazy" alt="Antes y después de un latido en el cuello"></a>
         <a href="https://www.instagram.com/ash.studio_eliminacion/" target="_blank" rel="noopener"><img src="img/cartas-dados-2-sesiones.jpg" loading="lazy" alt="Antes y después de unas cartas y dados"></a>
         <a href="https://www.instagram.com/ash.studio_eliminacion/" target="_blank" rel="noopener"><img src="img/rosas-brazo-3-sesiones.jpg" loading="lazy" alt="Antes y después de unas rosas en el brazo"></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="band contact-band" id="contacto">
+    <div class="wrap contact">
+      <div class="cta">
+        <h2>Mándanos una foto de tu tatuaje.</h2>
+        <p class="lede">Te respondemos por WhatsApp con una primera valoración y el precio por sesión.</p>
+        <a class="btn btn-lila" href="https://wa.me/34682819573?text=Hola%2C%20vengo%20de%20la%20web%20y%20quiero%20una%20valoraci%C3%B3n%20gratuita%20de%20mi%20tatuaje" target="_blank" rel="noopener">Escribir por WhatsApp<span class="dot"><svg aria-hidden="true"><use href="#wa"/></svg></span></a>
+      </div>
+      <div class="info">
+        <dl>
+          <div><dt>Dirección</dt><dd>Carrer Vila Antònia, 5<br>25007 Lleida<br><a href="https://www.google.com/maps/place/Ash+Studio/@41.6179546,0.631306,17z" target="_blank" rel="noopener">Ver en Google Maps</a></dd></div>
+          <div><dt>Teléfono y WhatsApp</dt><dd>682 81 95 73</dd></div>
+          <div><dt>Horario</dt><dd class="hours"><span>Lunes a viernes</span><span>9:00–20:00</span><span>Sábado</span><span>9:00–14:00</span><span>Domingo</span><span>Cerrado</span></dd></div>
+          <div><dt>Instagram</dt><dd><a href="https://www.instagram.com/ash.studio_eliminacion/" target="_blank" rel="noopener">@ash.studio_eliminacion</a></dd></div>
+        </dl>
+        <p class="zones">Atendemos a clientes de Lleida, Balaguer, Mollerussa, Tàrrega, Fraga y alrededores.</p>
       </div>
     </div>
   </section>
