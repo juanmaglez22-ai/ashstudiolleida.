@@ -3,6 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Eliminación de tatuajes con láser en Lleida | ASH Studio</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Eliminación de tatuajes con láser en Lleida. ASH Studio es el único estudio de Lleida dedicado solo a borrar tatuajes. Valoración gratuita por WhatsApp.">
 <link rel="canonical" href="https://ashstudiolleida.com/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="ASH Studio · Eliminación de tatuajes con láser en Lleida">
@@ -12,12 +15,10 @@
 <meta property="og:locale" content="es_ES">
 <link rel="icon" type="image/png" href="img/favicon.png">
 <link rel="apple-touch-icon" href="img/favicon.png">
-<meta name="theme-color" content="#53565a">
-<title>Eliminación de tatuajes con láser en Lleida | ASH Studio</title>
-<meta name="description" content="Eliminación de tatuajes con láser en Lleida. ASH Studio es el único estudio de Lleida dedicado solo a borrar tatuajes. Valoración gratuita por WhatsApp.">
+<meta name="theme-color" content="#17181a">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500&family=Montserrat:wght@200;400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,500..900&family=Montserrat:wght@400;500;600&display=swap">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -40,175 +41,222 @@
 }
 </script>
 <style>
-html{-webkit-text-size-adjust:100%} body{margin:0}
-/* Layout: brand-grey bands in one column (manual: Pantone Cool Gray 11 C and 5 C); the logo's sparkle marks every section, real before/after photos carry the page, the brand's ink-smoke texture closes it */
+/* Layout: alternating ink and cool-paper bands with rounded edges, expanded uppercase headlines, and one interactive before/after slider in the hero where the ink "disappears" */
 :root {
-  --bg: #e7e8e8;
-  --panel: #f4f4f4;
-  --stone: #b1b3b3;
-  --ink: #2c2e31;
-  --charcoal: #53565a;
-  --soft: #66696d;
-  --line: #cdcfcf;
-  --wa: #1e6f47;
-  --on-wa: #ffffff;
-  --f-display: "Bodoni Moda", "Didot", "Bodoni 72", Georgia, serif;
+  --ink: #17181a;        /* deep Cool Gray 11, the dark bands */
+  --ink-2: #222326;      /* raised surfaces on ink */
+  --graphite: #53565a;   /* Pantone Cool Gray 11 C */
+  --stone: #b1b3b3;      /* Pantone Cool Gray 5 C */
+  --paper: #ebeceb;      /* light bands */
+  --white: #f7f7f6;
+  --lila: #c9bfe3;       /* lilac from the brand's ink-smoke texture */
+  --lila-ink: #1d1a26;
+  --muted-d: #a3a6aa;    /* secondary text on ink */
+  --muted-l: #5d6064;    /* secondary text on paper */
+  --line-d: #333539;
+  --line-l: #cfd1d1;
+  --f-display: "Archivo", "Arial Black", "Helvetica Neue", Arial, sans-serif;
   --f-body: "Montserrat", "Helvetica Neue", Arial, sans-serif;
-  --f-label: "Montserrat", "Helvetica Neue", Arial, sans-serif;
-}
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: #26282b; --panel: #2f3134; --stone: #3b3e42; --ink: #eef0f0; --charcoal: #b1b3b3; --soft: #a2a5a8;
-    --line: #43464a; --wa: #3fbf80; --on-wa: #0f1a14; color-scheme: dark;
-  }
-}
-:root[data-theme="dark"] {
-  --bg: #26282b; --panel: #2f3134; --stone: #3b3e42; --ink: #eef0f0; --charcoal: #b1b3b3; --soft: #a2a5a8;
-  --line: #43464a; --wa: #3fbf80; --on-wa: #0f1a14; color-scheme: dark;
+  --r-big: 28px;
+  --r-card: 20px;
+  color-scheme: light;
 }
 * { box-sizing: border-box; }
-body { background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 1rem; line-height: 1.75; }
-a { color: inherit; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--f-body); font-size: 1rem; line-height: 1.65; }
 img { display: block; max-width: 100%; height: auto; }
-:focus-visible { outline: 2px solid var(--charcoal); outline-offset: 3px; border-radius: 4px; }
-.wrap { max-width: 72rem; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
-.band { padding-block: clamp(3.5rem, 8vw, 6.5rem); }
-.band.panel { background: var(--panel); }
-.band.stone { background: var(--stone); }
-h1, h2, h3 { font-family: var(--f-display); font-weight: 400; text-wrap: balance; margin: 0; letter-spacing: -0.01em; color: var(--ink); }
-h2 { font-size: clamp(2rem, 4.6vw, 3.2rem); line-height: 1.08; }
-h3 { font-size: 1.4rem; line-height: 1.2; font-weight: 500; }
-p { margin: 0; max-width: 62ch; }
-.label { font-family: var(--f-label); font-weight: 500; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.32em; color: var(--soft); display: inline-flex; align-items: center; gap: 0.7rem; }
-.label svg { width: 0.85rem; height: 0.85rem; fill: var(--charcoal); flex: none; }
-.lede { color: var(--soft); font-size: 1.1rem; font-weight: 400; }
-.section-head { display: grid; gap: 1rem; margin-bottom: 2.8rem; }
+a { color: inherit; }
+:focus-visible { outline: 2px solid var(--lila); outline-offset: 3px; border-radius: 6px; }
+.wrap { max-width: 82rem; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+@media (min-width: 700px) { .wrap { padding-left: max(32px, env(safe-area-inset-left, 0px)); padding-right: max(32px, env(safe-area-inset-right, 0px)); } }
+.band { padding-block: clamp(4rem, 9vw, 7.5rem); }
+.dark { background: var(--ink); color: var(--white); }
+.paper { background: var(--paper); color: var(--ink); }
 
-/* logo, drawn as a mask so it follows the theme */
-.logo { display: block; aspect-ratio: 640 / 410; background: var(--charcoal); -webkit-mask: url("img/logo.png") center / contain no-repeat; mask: url("img/logo.png") center / contain no-repeat; }
+/* type */
+h1, h2, h3 { margin: 0; font-family: var(--f-display); font-stretch: 125%; font-weight: 800; text-transform: uppercase; letter-spacing: -0.035em; line-height: 0.95; text-wrap: balance; }
+h2 { font-size: clamp(2.1rem, 5.6vw, 4.4rem); }
+h3 { font-size: clamp(1.15rem, 1.8vw, 1.45rem); letter-spacing: -0.02em; line-height: 1.05; }
+p { margin: 0; max-width: 60ch; }
+.lede { font-size: clamp(1.02rem, 1.4vw, 1.15rem); }
+.dark .lede, .dark .soft { color: var(--muted-d); }
+.paper .lede, .paper .soft { color: var(--muted-l); }
+.head { display: grid; gap: 1.2rem; margin-bottom: clamp(2.2rem, 5vw, 3.6rem); }
+.head-row { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 1.2rem 3rem; }
+
+/* buttons */
+.btn { display: inline-flex; align-items: center; gap: 0.7rem; font-family: var(--f-body); font-weight: 600; font-size: 0.95rem; text-decoration: none; border-radius: 999px; padding: 0.5rem 0.55rem 0.5rem 1.3rem; border: 1px solid transparent; transition: background-color .2s ease, color .2s ease, border-color .2s ease; white-space: nowrap; }
+.btn .dot { display: grid; place-items: center; width: 2.2rem; height: 2.2rem; border-radius: 50%; flex: none; }
+.btn .dot svg { width: 1.1rem; height: 1.1rem; fill: currentColor; }
+.btn-lila { background: var(--lila); color: var(--lila-ink); }
+.btn-lila .dot { background: var(--lila-ink); color: var(--lila); }
+.btn-lila:hover { background: var(--white); }
+.btn-ghost { border-color: color-mix(in srgb, currentColor 35%, transparent); padding-right: 1.3rem; }
+.btn-ghost:hover { border-color: currentColor; }
+.btn-ink { background: var(--ink); color: var(--white); }
+.btn-ink .dot { background: var(--lila); color: var(--lila-ink); }
+.btn-ink:hover { background: var(--graphite); }
+
+/* logo as mask so it takes the band's colour */
+.logo { display: block; aspect-ratio: 640 / 410; background: currentColor; -webkit-mask: url("img/logo.png") center / contain no-repeat; mask: url("img/logo.png") center / contain no-repeat; }
 
 /* header */
-body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
-header.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: color-mix(in srgb, var(--bg) 92%, transparent); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
-.top .wrap { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding-block: 0.65rem; }
-.top .logo { width: 4.6rem; }
-nav.links { display: flex; gap: 1.6rem; font-family: var(--f-label); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.2em; }
-nav.links a { text-decoration: none; color: var(--soft); }
-nav.links a:hover { color: var(--ink); }
-@media (max-width: 860px) { nav.links { display: none; } }
-.btn { display: inline-flex; align-items: center; gap: 0.6rem; font-weight: 600; text-decoration: none; border-radius: 999px; padding: 0.9rem 1.4rem; font-size: 1rem; transition: transform .15s ease; }
-.btn:hover { transform: translateY(-1px); }
-.btn-wa { background: var(--wa); color: var(--on-wa); }
-.btn-line { border: 1px solid var(--ink); }
-.btn-sm { padding: 0.55rem 1rem; font-size: 0.9rem; }
-.btn svg { width: 1.15em; height: 1.15em; flex: none; fill: currentColor; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--ink); }
+.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: color-mix(in srgb, var(--ink) 86%, transparent); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); color: var(--white); }
+.top .wrap { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding-block: 0.7rem; }
+.top .logo { width: 4.2rem; color: var(--white); }
+.links { display: flex; gap: 1.8rem; font-size: 0.86rem; font-weight: 500; }
+.links a { text-decoration: none; color: var(--muted-d); }
+.links a:hover { color: var(--white); }
+.top .btn { padding-block: 0.35rem; font-size: 0.86rem; }
+.top .btn .dot { width: 1.9rem; height: 1.9rem; }
+@media (max-width: 920px) { .links { display: none; } }
+@media (max-width: 420px) { .top .btn .txt-long { display: none; } }
 
 /* hero */
-.hero { padding-block: clamp(2.5rem, 6vw, 5rem); }
-.hero-grid { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: clamp(2rem, 5vw, 4.5rem); align-items: center; }
-.hero h1 { font-size: clamp(2.7rem, 6.6vw, 5rem); line-height: 1.02; margin-top: 1.2rem; }
-.hero h1 i { font-style: italic; color: var(--charcoal); }
-.hero .lede { margin-top: 1.4rem; }
-.hero-cta { display: flex; flex-wrap: wrap; gap: 0.8rem; margin-top: 2rem; }
-.hours-line { margin-top: 1.3rem; font-size: 0.9rem; color: var(--soft); font-variant-numeric: tabular-nums; }
-.hero-photo { margin: 0; display: grid; gap: 0.7rem; }
-.hero-photo img { border-radius: 4px; width: 100%; }
-.hero-photo figcaption { font-family: var(--f-label); font-size: 0.72rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--soft); }
-@media (max-width: 860px) { .hero-grid { grid-template-columns: 1fr; } .hero-photo { max-width: 30rem; } }
+.hero { background: var(--ink); color: var(--white); border-radius: 0 0 var(--r-big) var(--r-big); padding-block: clamp(2.5rem, 6vw, 5rem) clamp(2rem, 4vw, 3rem); position: relative; overflow: hidden; }
+.hero::after { content: ""; position: absolute; inset: 0; background: url("img/textura-humo.jpg") right bottom / cover no-repeat; opacity: .22; mix-blend-mode: screen; pointer-events: none; -webkit-mask-image: radial-gradient(120% 90% at 100% 100%, #000 0%, transparent 70%); mask-image: radial-gradient(120% 90% at 100% 100%, #000 0%, transparent 70%); }
+.hero-grid { position: relative; z-index: 1; display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.85fr); gap: clamp(2.2rem, 5vw, 5rem); align-items: center; }
+.hero h1 { display: grid; gap: 1.3rem; }
+.hero h1 .seo { font-family: var(--f-body); font-stretch: 100%; font-size: clamp(0.92rem, 1.3vw, 1.05rem); font-weight: 500; text-transform: none; letter-spacing: 0; line-height: 1.4; color: var(--lila); }
+.hero h1 .big { font-size: clamp(2.7rem, 7.6vw, 6.4rem); line-height: 0.9; }
+.hero .lede { margin-top: 1.6rem; color: var(--muted-d); max-width: 46ch; }
+.hero-cta { display: flex; flex-wrap: wrap; gap: 0.8rem; margin-top: 2.2rem; }
+.facts { position: relative; z-index: 1; list-style: none; margin: clamp(2.8rem, 6vw, 4.5rem) 0 0; padding: 1.4rem 0 0; border-top: 1px solid var(--line-d); display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1.2rem 2rem; }
+.facts li { display: grid; gap: 0.2rem; font-size: 0.9rem; color: var(--muted-d); }
+.facts b { color: var(--white); font-weight: 600; font-size: 0.98rem; }
+@media (max-width: 920px) { .hero-grid { grid-template-columns: 1fr; } .ba-wrap { max-width: 28rem; } .facts { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+/* before / after slider (the composite photo: left half = antes, right half = después) */
+.ba-wrap { display: grid; gap: 0.8rem; }
+.ba { --pos: 50%; position: relative; aspect-ratio: 4 / 5; max-width: 100%; border-radius: var(--r-card); overflow: hidden; background: var(--ink-2); touch-action: pan-y; user-select: none; }
+.ba .layer { position: absolute; inset: 0; background-image: var(--img); background-repeat: no-repeat; background-size: 205% auto; }
+.ba .after { background-position: 100% 32%; }
+.ba .before { background-position: 0% 32%; clip-path: inset(0 calc(100% - var(--pos)) 0 0); }
+.ba .handle { position: absolute; top: 0; bottom: 0; left: var(--pos); width: 2px; margin-left: -1px; background: var(--white); pointer-events: none; }
+.ba .handle::after { content: ""; position: absolute; top: 50%; left: 50%; width: 2.8rem; height: 2.8rem; transform: translate(-50%, -50%); border-radius: 50%; background: var(--white) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M9 6 3 12l6 6M15 6l6 6-6 6' fill='none' stroke='%2317181a' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / 1.3rem no-repeat; box-shadow: 0 2px 14px rgba(0,0,0,.35); }
+.ba .tag { position: absolute; top: 0.9rem; padding: 0.3rem 0.75rem; border-radius: 999px; font-size: 0.78rem; font-weight: 600; background: color-mix(in srgb, var(--ink) 78%, transparent); color: var(--white); pointer-events: none; }
+.ba .tag.l { left: 0.9rem; } .ba .tag.r { right: 0.9rem; }
+.ba input { position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; opacity: 0; cursor: ew-resize; }
+.ba input:focus-visible + .handle::after { outline: 2px solid var(--lila); outline-offset: 3px; }
+.ba-cap { font-size: 0.86rem; color: var(--muted-d); }
 
 /* services */
-.services { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(1.5rem, 3vw, 2.5rem); }
-.service { display: grid; gap: 0.7rem; align-content: start; padding-top: 1.4rem; border-top: 1px solid var(--ink); }
-.service p { color: var(--soft); font-size: 0.98rem; }
+.services { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.service { background: var(--white); border-radius: var(--r-card); padding: clamp(1.5rem, 3vw, 2.2rem); display: grid; gap: 1rem; align-content: start; min-width: 0; }
+.service p { color: var(--muted-l); }
+.service svg { width: 1.3rem; height: 1.3rem; fill: var(--graphite); }
 @media (max-width: 860px) { .services { grid-template-columns: 1fr; } }
 
-/* process */
-.process { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: clamp(2rem, 5vw, 4.5rem); align-items: start; }
-.steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 1.6rem; counter-reset: step; }
-.steps li { counter-increment: step; display: grid; grid-template-columns: 2.6rem minmax(0, 1fr); gap: 0.2rem 1rem; }
-.steps li::before { content: counter(step); grid-row: span 2; font-family: var(--f-display); font-size: 2rem; line-height: 1; color: var(--charcoal); }
-.steps h3 { font-size: 1.25rem; }
-.steps p { color: var(--soft); font-size: 0.98rem; }
-.fade { border: 1px solid var(--line); background: var(--panel); border-radius: 4px; padding: 1.5rem; display: grid; gap: 1.1rem; }
-.fade-row { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 0.45rem; }
-.swatch { display: grid; gap: 0.45rem; text-align: center; }
-.swatch i { display: block; aspect-ratio: 3 / 4; max-width: 100%; border-radius: 2px; background: var(--ink); }
-.swatch small { font-family: var(--f-label); font-size: 0.62rem; letter-spacing: 0.08em; color: var(--soft); font-variant-numeric: tabular-nums; }
-.fade p { font-size: 0.95rem; color: var(--soft); }
-@media (max-width: 860px) { .process { grid-template-columns: 1fr; } }
-
-/* laser */
-.laser { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(2rem, 5vw, 4.5rem); align-items: start; }
-.laser .copy { display: grid; gap: 1.1rem; }
-.specs { margin: 0; border-top: 1px solid var(--ink); }
-.specs div { display: flex; justify-content: space-between; gap: 1rem; padding: 0.95rem 0; border-bottom: 1px solid var(--line); }
-.specs dt { color: var(--soft); }
-.specs dd { margin: 0; text-align: right; font-weight: 500; font-variant-numeric: tabular-nums; }
-@media (max-width: 860px) { .laser { grid-template-columns: 1fr; } }
+/* steps */
+.steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1rem; counter-reset: s; }
+.steps li { counter-increment: s; background: var(--ink-2); border-radius: var(--r-card); padding: 1.6rem; display: grid; gap: 0.9rem; align-content: start; min-width: 0; }
+.steps li::before { content: "0" counter(s); font-family: var(--f-display); font-stretch: 125%; font-weight: 800; font-size: 2.6rem; line-height: 1; color: var(--lila); letter-spacing: -0.04em; }
+.steps p { color: var(--muted-d); font-size: 0.95rem; }
+@media (max-width: 1000px) { .steps { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .steps { grid-template-columns: 1fr; } }
+.fade { margin-top: 1rem; border: 1px solid var(--line-d); border-radius: var(--r-card); padding: clamp(1.4rem, 3vw, 2rem); display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); gap: 1.5rem 3rem; align-items: center; }
+.fade-row { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 0.5rem; }
+.swatch { display: grid; gap: 0.5rem; text-align: center; }
+.swatch i { display: block; aspect-ratio: 3 / 4; max-width: 100%; border-radius: 10px; background: var(--white); }
+.swatch small { font-size: 0.7rem; color: var(--muted-d); font-variant-numeric: tabular-nums; }
+.fade p { color: var(--muted-d); }
+@media (max-width: 760px) { .fade { grid-template-columns: 1fr; } }
 
 /* results */
-.results { columns: 3 16rem; column-gap: 1.2rem; }
-.case { break-inside: avoid; margin: 0 0 1.2rem; display: grid; gap: 0.55rem; }
-.case img { width: 100%; border-radius: 4px; }
-.case figcaption { font-size: 0.9rem; color: var(--soft); }
+.results { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.case { margin: 0; display: grid; gap: 0.8rem; align-content: start; min-width: 0; }
+.case img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: var(--r-card); }
+.case figcaption { font-size: 0.92rem; color: var(--muted-l); }
 .case figcaption b { color: var(--ink); font-weight: 600; }
+@media (max-width: 860px) { .results { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 520px) { .results { grid-template-columns: 1fr; } }
+
+/* Marina */
+.team { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); gap: clamp(2rem, 6vw, 5.5rem); align-items: center; }
+.team img { width: 100%; border-radius: var(--r-card); filter: grayscale(1); }
+.team .copy { display: grid; gap: 1.3rem; }
+.team h2 { font-size: clamp(2.4rem, 6.4vw, 5.2rem); }
+.team .role { color: var(--lila); font-weight: 500; }
+@media (max-width: 760px) { .team { grid-template-columns: 1fr; } .team img { max-width: 24rem; } }
+
+/* laser */
+.laser { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(2rem, 6vw, 5.5rem); align-items: start; }
+.laser .copy { display: grid; gap: 1.2rem; }
+.specs { margin: 0; background: var(--white); border-radius: var(--r-card); padding: 0.6rem 1.6rem; }
+.specs div { display: flex; justify-content: space-between; gap: 1rem; padding: 1rem 0; border-bottom: 1px solid var(--line-l); }
+.specs div:last-child { border-bottom: 0; }
+.specs dt { color: var(--muted-l); }
+.specs dd { margin: 0; text-align: right; font-weight: 600; font-variant-numeric: tabular-nums; }
+@media (max-width: 860px) { .laser { grid-template-columns: 1fr; } }
 
 /* price */
-.price { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(2rem, 5vw, 4.5rem); align-items: center; }
-.price-figure { font-family: var(--f-display); font-size: clamp(3rem, 8vw, 5.4rem); line-height: 1; }
-.price-figure small { display: block; font-family: var(--f-body); font-size: 1rem; color: var(--soft); margin-top: 0.8rem; }
+.price-band { background: var(--lila); color: var(--lila-ink); border-radius: var(--r-big); margin-inline: max(8px, env(safe-area-inset-left, 0px)) max(8px, env(safe-area-inset-right, 0px)); }
+.price { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 2rem clamp(2rem, 6vw, 5.5rem); align-items: center; }
+.price-figure { font-family: var(--f-display); font-stretch: 125%; font-weight: 900; text-transform: uppercase; letter-spacing: -0.045em; line-height: 0.88; font-size: clamp(3.4rem, 10vw, 8rem); margin: 0; }
+.price-figure small { display: block; font-family: var(--f-body); font-stretch: 100%; text-transform: none; letter-spacing: 0; font-weight: 500; font-size: 1rem; line-height: 1.4; margin-top: 1rem; }
+.price .copy { display: grid; gap: 1.4rem; justify-items: start; }
 .price ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 0.7rem; }
-.price li { display: flex; gap: 0.75rem; align-items: baseline; }
-.price li svg { width: 0.8rem; height: 0.8rem; fill: var(--charcoal); flex: none; transform: translateY(0.1rem); }
+.price li { display: flex; gap: 0.75rem; align-items: baseline; font-weight: 500; }
+.price li svg { width: 0.85rem; height: 0.85rem; fill: currentColor; flex: none; transform: translateY(0.1rem); }
 @media (max-width: 860px) { .price { grid-template-columns: 1fr; } }
 
-/* team */
-.team { display: grid; grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr); gap: clamp(2rem, 5vw, 4.5rem); align-items: center; }
-.team .ph { aspect-ratio: 4 / 5; max-width: 100%; border-radius: 4px; background: repeating-linear-gradient(135deg, var(--stone) 0 10px, var(--panel) 10px 20px); display: grid; place-items: center; font-family: var(--f-label); font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--soft); }
-.team .copy { display: grid; gap: 1.1rem; }
-.team h2 { font-size: clamp(2.2rem, 5vw, 3.4rem); }
-.team .portrait { width: 100%; border-radius: 4px; }
-@media (max-width: 760px) { .team { grid-template-columns: 1fr; } .team .portrait { max-width: 20rem; } }
+/* instagram */
+.ig-grid { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 0.6rem; }
+.ig-grid a { position: relative; display: block; aspect-ratio: 1 / 1; max-width: 100%; border-radius: 14px; overflow: hidden; background: var(--ink-2); }
+.ig-grid img { width: 100%; height: 100%; object-fit: cover; transition: transform .4s ease; }
+.ig-grid a:hover img { transform: scale(1.04); }
+.ig-grid .reel { position: absolute; top: 0.5rem; right: 0.5rem; width: 1.2rem; height: 1.2rem; fill: var(--white); filter: drop-shadow(0 1px 3px rgba(0,0,0,.5)); }
+@media (max-width: 860px) { .ig-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+.ig-handle { font-family: var(--f-display); font-stretch: 110%; font-weight: 700; font-size: clamp(1rem, 1.6vw, 1.2rem); color: var(--graphite); text-decoration: none; }
 
 /* faq */
-.faq { display: grid; border-top: 1px solid var(--ink); max-width: 52rem; }
-.faq details { border-bottom: 1px solid var(--line); }
-.faq summary { cursor: pointer; list-style: none; display: flex; justify-content: space-between; gap: 1rem; padding: 1.25rem 0; font-family: var(--f-display); font-size: 1.25rem; }
+.faq-grid { display: grid; grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr); gap: 2rem clamp(2rem, 6vw, 5.5rem); align-items: start; }
+.faq { display: grid; gap: 0.6rem; }
+.faq details { background: var(--white); border-radius: 16px; }
+.faq summary { cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: 1.15rem 1.4rem; font-weight: 600; font-size: 1.02rem; }
 .faq summary::-webkit-details-marker { display: none; }
-.faq summary::after { content: "+"; font-family: var(--f-body); color: var(--soft); font-size: 1.4rem; line-height: 1; }
-.faq details[open] summary::after { content: "–"; }
-.faq details p { padding-bottom: 1.3rem; color: var(--soft); }
+.faq summary::after { content: ""; flex: none; width: 1.9rem; height: 1.9rem; border-radius: 50%; background: var(--paper) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 5v14M5 12h14' fill='none' stroke='%2317181a' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E") center / 0.9rem no-repeat; transition: transform .2s ease; }
+.faq details[open] summary::after { transform: rotate(45deg); }
+.faq details p { padding: 0 1.4rem 1.3rem; color: var(--muted-l); }
+@media (max-width: 860px) { .faq-grid { grid-template-columns: 1fr; } }
 
 /* contact */
-.contact { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: clamp(2rem, 5vw, 4.5rem); }
-.contact .cta { display: grid; gap: 1.4rem; align-content: start; }
-.contact h2 { font-size: clamp(2.3rem, 5.4vw, 3.8rem); }
-.info dl { margin: 0; display: grid; gap: 1.3rem; }
-.info dt { font-family: var(--f-label); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.24em; color: var(--soft); margin-bottom: 0.3rem; }
+.contact-band { position: relative; color: var(--white); background: var(--ink) url("img/textura-humo.jpg") center / cover no-repeat; border-radius: var(--r-big) var(--r-big) 0 0; }
+.contact-band::before { content: ""; position: absolute; inset: 0; border-radius: inherit; background: linear-gradient(100deg, rgba(23,24,26,.9) 0%, rgba(23,24,26,.6) 60%, rgba(23,24,26,.35) 100%); }
+.contact-band .wrap { position: relative; }
+.contact { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 2.5rem clamp(2rem, 6vw, 5.5rem); }
+.contact .cta { display: grid; gap: 1.4rem; align-content: start; justify-items: start; }
+.contact h2 { font-size: clamp(2.3rem, 6vw, 4.8rem); }
+.contact .lede { color: #d5d6d8; }
+.info { background: color-mix(in srgb, var(--ink) 72%, transparent); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,.1); border-radius: var(--r-card); padding: 1.6rem; }
+.info dl { margin: 0; display: grid; gap: 1.2rem; }
+.info dt { font-size: 0.82rem; color: var(--muted-d); margin-bottom: 0.15rem; }
 .info dd { margin: 0; }
-.hours { display: grid; grid-template-columns: auto 1fr; gap: 0.15rem 1.4rem; font-variant-numeric: tabular-nums; }
 .info a { text-underline-offset: 3px; }
-.zones { margin-top: 1.4rem; font-size: 0.92rem; color: var(--soft); }
+.hours { display: grid; grid-template-columns: auto 1fr; gap: 0.1rem 1.4rem; font-variant-numeric: tabular-nums; }
+.zones { margin-top: 1.3rem; font-size: 0.88rem; color: var(--muted-d); }
 @media (max-width: 860px) { .contact { grid-template-columns: 1fr; } }
 
-.smoke { position: relative; color: #f4f4f4; background: #2c2e31 url("img/textura-humo.jpg") center / cover no-repeat; }
-.smoke::before { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(30,31,34,.82), rgba(30,31,34,.45)); }
-.smoke .wrap { position: relative; }
-.smoke h2, .smoke .info dd { color: #f4f4f4; }
-.smoke .lede, .smoke .label, .smoke .info dt, .smoke .zones { color: #d6d7d8; }
-.smoke .label svg { fill: #d6d7d8; }
-.smoke .btn-wa { background: #f4f4f4; color: #2c2e31; }
-footer { padding-block: 2.4rem; border-top: 1px solid var(--line); font-size: 0.86rem; color: var(--soft); }
+footer { background: var(--ink); color: var(--muted-d); font-size: 0.86rem; padding-block: 2.4rem calc(2.4rem + env(safe-area-inset-bottom, 0px)); }
 footer .wrap { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1.2rem; }
-footer .logo { width: 5.5rem; }
+footer .logo { width: 5rem; color: var(--white); }
 
-@media (prefers-reduced-motion: reduce) { .btn { transition: none; } .btn:hover { transform: none; } }
+/* floating WhatsApp on phones */
+.wa-float { position: fixed; right: calc(16px + env(safe-area-inset-right, 0px)); bottom: calc(16px + env(safe-area-inset-bottom, 0px)); z-index: 30; width: 3.4rem; height: 3.4rem; border-radius: 50%; display: none; place-items: center; background: var(--lila); color: var(--lila-ink); box-shadow: 0 6px 22px rgba(0,0,0,.3); }
+.wa-float svg { width: 1.6rem; height: 1.6rem; fill: currentColor; }
+@media (max-width: 760px) { .wa-float { display: grid; } }
+
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .btn, .ig-grid img, .faq summary::after { transition: none; } }
 </style>
 </head>
 <body>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
   <symbol id="spark" viewBox="0 0 20 20"><path d="M10 0c.6 5.3 4.4 9.1 10 10-5.6.9-9.4 4.7-10 10-.6-5.3-4.4-9.1-10-10C5.6 9.1 9.4 5.3 10 0Z"/></symbol>
   <symbol id="wa" viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.5 0-3-.4-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1-.7-.3-1.5-.7-2.2-1.4-.6-.5-1-1.2-1.2-1.6-.1-.2 0-.4.1-.5l.4-.4.3-.4v-.4l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 2s.9 2.3 1 2.5c.1.2 1.7 2.6 4.1 3.6 1.5.7 2.1.7 2.9.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.4-.2Z"/></symbol>
+  <symbol id="arrow" viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="ig" viewBox="0 0 24 24"><path d="M12 7.3a4.7 4.7 0 1 0 0 9.4 4.7 4.7 0 0 0 0-9.4Zm0 7.7a3 3 0 1 1 0-6 3 3 0 0 1 0 6Zm6-7.9a1.1 1.1 0 1 1-2.2 0 1.1 1.1 0 0 1 2.2 0ZM12 3.6c2.7 0 3 0 4.1.1 2.7.1 4 1.4 4.1 4.1.1 1.1.1 1.4.1 4.1s0 3-.1 4.1c-.1 2.7-1.4 4-4.1 4.1-1.1.1-1.4.1-4.1.1s-3 0-4.1-.1c-2.7-.1-4-1.4-4.1-4.1C3.7 15 3.6 14.7 3.6 12s0-3 .1-4.1c.1-2.7 1.4-4 4.1-4.1 1.1-.1 1.4-.2 4.2-.2ZM12 2c-2.7 0-3.1 0-4.1.1C4.2 2.2 2.2 4.2 2.1 7.9 2 8.9 2 9.3 2 12s0 3.1.1 4.1c.2 3.7 2.2 5.7 5.8 5.8 1 .1 1.4.1 4.1.1s3.1 0 4.1-.1c3.7-.2 5.7-2.2 5.8-5.8.1-1 .1-1.4.1-4.1s0-3.1-.1-4.1c-.2-3.7-2.2-5.7-5.8-5.8C15.1 2 14.7 2 12 2Z"/></symbol>
+  <symbol id="play" viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></symbol>
 </svg>
 
 <header class="top">
@@ -218,81 +266,88 @@ footer .logo { width: 5.5rem; }
       <a href="#como-funciona">Cómo funciona</a>
       <a href="#resultados">Resultados</a>
       <a href="#precio">Precio</a>
+      <a href="#instagram">Instagram</a>
       <a href="#dudas">Dudas</a>
       <a href="#contacto">Contacto</a>
     </nav>
-    <a class="btn btn-wa btn-sm" href="https://wa.me/34682819573?text=Hola%2C%20vengo%20de%20la%20web%20y%20quiero%20una%20valoraci%C3%B3n%20gratuita%20de%20mi%20tatuaje" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#wa"/></svg>Valoración gratis</a>
+    <a class="btn btn-lila" href="https://wa.me/34682819573?text=Hola%2C%20vengo%20de%20la%20web%20y%20quiero%20una%20valoraci%C3%B3n%20gratuita%20de%20mi%20tatuaje" target="_blank" rel="noopener">Valoración <span class="txt-long">gratis</span><span class="dot"><svg aria-hidden="true"><use href="#wa"/></svg></span></a>
   </div>
 </header>
 
 <main id="inicio">
   <section class="hero">
-    <div class="wrap hero-grid">
-      <div>
-        <p class="label"><svg aria-hidden="true"><use href="#spark"/></svg>Eliminación de tatuajes<svg aria-hidden="true"><use href="#spark"/></svg></p>
-        <h1>Eliminación de tatuajes con láser <i>en Lleida</i></h1>
-        <p class="lede">Somos el único estudio de Lleida dedicado solo a borrar tatuajes. Desde la primera visita te decimos cuántas sesiones vas a necesitar y cuánto te va a costar.</p>
-        <div class="hero-cta">
-          <a class="btn btn-wa" href="https://wa.me/34682819573?text=Hola%2C%20vengo%20de%20la%20web%20y%20quiero%20una%20valoraci%C3%B3n%20gratuita%20de%20mi%20tatuaje" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#wa"/></svg>Envía una foto de tu tatuaje</a>
-          <a class="btn btn-line" href="#resultados">Ver resultados</a>
+    <div class="wrap">
+      <div class="hero-grid">
+        <div>
+          <h1><span class="seo">Eliminación de tatuajes con láser en Lleida</span><span class="big">Borramos tatuajes. Solo eso.</span></h1>
+          <p class="lede">Somos el único estudio de Lleida dedicado solo a borrar tatuajes. Desde la primera visita te decimos cuántas sesiones vas a necesitar y cuánto te va a costar.</p>
+          <div class="hero-cta">
+            <a class="btn btn-lila" href="https://wa.me/34682819573?text=Hola%2C%20vengo%20de%20la%20web%20y%20quiero%20una%20valoraci%C3%B3n%20gratuita%20de%20mi%20tatuaje" target="_blank" rel="noopener">Envía una foto de tu tatuaje<span class="dot"><svg aria-hidden="true"><use href="#wa"/></svg></span></a>
+            <a class="btn btn-ghost" href="#resultados">Ver resultados</a>
+          </div>
         </div>
-        <p class="hours-line">Lun–Vie 9:00–20:00 · Sáb 9:00–14:00 · 682 81 95 73</p>
+        <div class="ba-wrap">
+          <div class="ba" style="--img:url('img/buda-brazo-1-sesion.jpg')">
+            <div class="layer after" role="img" aria-label="El tatuaje de Buda en el brazo después de la primera sesión de láser"></div>
+            <div class="layer before" role="img" aria-label="El tatuaje de Buda en el brazo antes del tratamiento"></div>
+            <span class="tag l">Antes</span><span class="tag r">1ª sesión</span>
+            <input type="range" id="ba-hero" min="0" max="100" value="50" aria-label="Desliza para comparar el antes y el después">
+            <span class="handle"></span>
+          </div>
+          <p class="ba-cap">Desliza para ver el antes y el después. Buda en el brazo, tras una sola sesión.</p>
+        </div>
       </div>
-      <figure class="hero-photo">
-        <img src="img/buda-brazo-1-sesion.jpg" width="820" height="1027" alt="Tatuaje grande de Buda en el brazo antes y después de la primera sesión de láser en ASH Studio">
-        <figcaption>Antes y después de la 1ª sesión</figcaption>
+      <ul class="facts">
+        <li><b>Valoración gratis</b>Por WhatsApp o en el estudio</li>
+        <li><b>Precio cerrado</b>Por sesión, antes de empezar</li>
+        <li><b>Láser Lucid Q-PTP</b>Doble pulso, 1064 y 532 nm</li>
+        <li><b>Lun–Vie 9:00–20:00</b>Sábados de 9:00 a 14:00</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="band paper" id="servicios">
+    <div class="wrap">
+      <div class="head">
+        <h2>Solo borramos tatuajes. Por eso lo hacemos bien.</h2>
+      </div>
+      <div class="services">
+        <article class="service"><svg aria-hidden="true"><use href="#spark"/></svg><h3>Eliminación completa</h3><p>Para borrar del todo un tatuaje que ya no quieres llevar, sea negro o de color, pequeño o grande.</p></article>
+        <article class="service"><svg aria-hidden="true"><use href="#spark"/></svg><h3>Aclarado para cover-up</h3><p>Aclaramos el tatuaje antiguo para que tu tatuador pueda taparlo con un diseño nuevo y más libre.</p></article>
+        <article class="service"><svg aria-hidden="true"><use href="#spark"/></svg><h3>Micropigmentación</h3><p>Eliminamos o corregimos microblading y micropigmentación de cejas y labios que no quedaron como esperabas.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="band dark" id="como-funciona">
+    <div class="wrap">
+      <div class="head">
+        <h2>Del primer mensaje a la última sesión.</h2>
+      </div>
+      <ol class="steps">
+        <li><h3>Valoración gratuita</h3><p>Mándanos una foto por WhatsApp o ven al estudio. Miramos el tamaño, los colores y tu tipo de piel.</p></li>
+        <li><h3>Precio cerrado</h3><p>Te decimos el precio por sesión y una estimación de cuántas necesitarás, sin sorpresas.</p></li>
+        <li><h3>Una sesión cada 45–60 días</h3><p>Cada sesión dura pocos minutos. Entre una y otra, tu piel se recupera y tu cuerpo elimina la tinta.</p></li>
+        <li><h3>Seguimiento con fotos</h3><p>Fotografiamos tu tatuaje en cada visita para que veas cómo avanza.</p></li>
+      </ol>
+      <figure class="fade" style="margin-block:1rem 0;margin-inline:0" aria-label="Cómo se aclara la tinta sesión a sesión">
+        <div class="fade-row">
+          <div class="swatch"><i style="opacity:1"></i><small>Inicio</small></div>
+          <div class="swatch"><i style="opacity:.72"></i><small>1ª</small></div>
+          <div class="swatch"><i style="opacity:.5"></i><small>2ª</small></div>
+          <div class="swatch"><i style="opacity:.32"></i><small>3ª</small></div>
+          <div class="swatch"><i style="opacity:.16"></i><small>4ª</small></div>
+          <div class="swatch"><i style="opacity:.06"></i><small>5ª</small></div>
+        </div>
+        <p>No te apuramos: dejamos que tu piel se recupere entre sesiones. Así el resultado es mejor y la piel queda sana. El número de sesiones depende de cada tatuaje.</p>
       </figure>
     </div>
   </section>
 
-  <section class="band panel" id="servicios">
+  <section class="band paper" id="resultados">
     <div class="wrap">
-      <div class="section-head">
-        <p class="label"><svg aria-hidden="true"><use href="#spark"/></svg>Qué hacemos</p>
-        <h2>Solo borramos tatuajes. Por eso lo hacemos bien.</h2>
-      </div>
-      <div class="services">
-        <article class="service"><h3>Eliminación completa</h3><p>Para borrar del todo un tatuaje que ya no quieres llevar, sea negro o de color, pequeño o grande.</p></article>
-        <article class="service"><h3>Aclarado para cover-up</h3><p>Aclaramos el tatuaje antiguo para que tu tatuador pueda taparlo con un diseño nuevo y más libre.</p></article>
-        <article class="service"><h3>Micropigmentación</h3><p>Eliminamos o corregimos microblading y micropigmentación de cejas y labios que no quedaron como esperabas.</p></article>
-      </div>
-    </div>
-  </section>
-
-  <section class="band" id="como-funciona">
-    <div class="wrap">
-      <div class="section-head">
-        <p class="label"><svg aria-hidden="true"><use href="#spark"/></svg>Cómo funciona</p>
-        <h2>Del primer mensaje a la última sesión</h2>
-      </div>
-      <div class="process">
-        <ol class="steps">
-          <li><h3>Valoración gratuita</h3><p>Mándanos una foto por WhatsApp o ven al estudio. Miramos el tamaño, los colores y tu tipo de piel.</p></li>
-          <li><h3>Precio cerrado</h3><p>Te decimos el precio por sesión y una estimación de cuántas necesitarás, sin sorpresas.</p></li>
-          <li><h3>Una sesión cada 45–60 días</h3><p>Cada sesión dura pocos minutos. Entre una y otra, tu piel se recupera y tu cuerpo elimina la tinta.</p></li>
-          <li><h3>Seguimiento con fotos</h3><p>Fotografiamos tu tatuaje en cada visita para que veas cómo avanza.</p></li>
-        </ol>
-        <figure class="fade" style="margin:0" aria-label="Cómo se aclara la tinta sesión a sesión">
-          <p class="label">La tinta, sesión a sesión</p>
-          <div class="fade-row">
-            <div class="swatch"><i style="opacity:1"></i><small>Mes 0</small></div>
-            <div class="swatch"><i style="opacity:.72"></i><small>Mes 2</small></div>
-            <div class="swatch"><i style="opacity:.5"></i><small>Mes 4</small></div>
-            <div class="swatch"><i style="opacity:.32"></i><small>Mes 6</small></div>
-            <div class="swatch"><i style="opacity:.16"></i><small>Mes 8</small></div>
-            <div class="swatch"><i style="opacity:.06"></i><small>Mes 10</small></div>
-          </div>
-          <p>No te apuramos: dejamos que tu piel se recupere entre sesiones. Así el resultado es mejor y la piel queda sana. El número de sesiones depende de cada tatuaje.</p>
-        </figure>
-      </div>
-    </div>
-  </section>
-
-  <section class="band panel" id="resultados">
-    <div class="wrap">
-      <div class="section-head">
-        <p class="label"><svg aria-hidden="true"><use href="#spark"/></svg>Resultados</p>
-        <h2>Antes y después de clientes reales</h2>
+      <div class="head head-row">
+        <h2>Antes y después. Clientes reales.</h2>
         <p class="lede">Tatuajes tratados en nuestro estudio de Lleida con el láser Lucid Q-PTP.</p>
       </div>
       <div class="results">
@@ -306,25 +361,23 @@ footer .logo { width: 5.5rem; }
     </div>
   </section>
 
-  <section class="band" id="quien">
+  <section class="band dark" id="quien">
     <div class="wrap team">
-      <img class="portrait" src="img/marina-gonzalez-laser.jpg" width="760" height="971" loading="lazy" alt="Marina González, especialista de ASH Studio, preparando el láser en la cabina del estudio">
+      <img src="img/marina-gonzalez-laser.jpg" width="760" height="971" loading="lazy" alt="Marina González, especialista de ASH Studio, preparando el láser en la cabina del estudio">
       <div class="copy">
-        <p class="label"><svg aria-hidden="true"><use href="#spark"/></svg>Quién te atiende</p>
         <h2>Marina González</h2>
-        <p class="lede">Especialista en técnicas avanzadas de eliminación de tatuajes.</p>
-        <p>Marina hace las valoraciones y los tratamientos del estudio. Te explica qué esperar de tu tatuaje y sigue tu caso de principio a fin.</p>
+        <p class="lede role">Especialista en técnicas avanzadas de eliminación de tatuajes.</p>
+        <p class="soft">Marina hace las valoraciones y los tratamientos del estudio. Te explica qué esperar de tu tatuaje y sigue tu caso de principio a fin.</p>
       </div>
     </div>
   </section>
 
-  <section class="band panel" id="laser">
+  <section class="band paper" id="laser">
     <div class="wrap laser">
       <div class="copy">
-        <p class="label"><svg aria-hidden="true"><use href="#spark"/></svg>La tecnología</p>
-        <h2>Láser Lucid Q-PTP de doble pulso</h2>
+        <h2>Láser Lucid Q-PTP de doble pulso.</h2>
         <p class="lede">Un láser Nd:YAG Q-switched que rompe la tinta en partículas muy pequeñas para que tu cuerpo las elimine de forma natural.</p>
-        <p>Trabaja con dos longitudes de onda: 1064 nm para las tintas oscuras y 532 nm para rojos y naranjas. El doble pulso reparte la energía para tratar la tinta cuidando la piel de alrededor.</p>
+        <p class="soft">Trabaja con dos longitudes de onda: 1064 nm para las tintas oscuras y 532 nm para rojos y naranjas. El doble pulso reparte la energía para tratar la tinta cuidando la piel de alrededor.</p>
       </div>
       <dl class="specs">
         <div><dt>Equipo</dt><dd>Lucid Q-PTP</dd></div>
@@ -337,28 +390,46 @@ footer .logo { width: 5.5rem; }
     </div>
   </section>
 
-  <section class="band stone" id="precio">
+  <section class="band price-band" id="precio">
     <div class="wrap price">
-      <div>
-        <p class="label"><svg aria-hidden="true"><use href="#spark"/></svg>Precio</p>
-        <p class="price-figure" style="margin-top:1.1rem">Desde 50 €<small>por sesión, según el tamaño y los colores de tu tatuaje</small></p>
-      </div>
-      <div style="display:grid;gap:1.4rem">
-        <p class="lede" style="color:var(--ink)">Cada tatuaje es distinto, así que te damos el precio al verlo, por foto o en el estudio. La valoración es gratis y sin compromiso.</p>
+      <p class="price-figure">Desde 50&nbsp;€<small>por sesión, según el tamaño y los colores de tu tatuaje</small></p>
+      <div class="copy">
+        <p class="lede">Cada tatuaje es distinto, así que te damos el precio al verlo, por foto o en el estudio. La valoración es gratis y sin compromiso.</p>
         <ul>
           <li><svg aria-hidden="true"><use href="#spark"/></svg>Precio cerrado por sesión antes de empezar</li>
           <li><svg aria-hidden="true"><use href="#spark"/></svg>Estimación del número de sesiones</li>
           <li><svg aria-hidden="true"><use href="#spark"/></svg>Pagas cada sesión el día que la haces</li>
         </ul>
+        <a class="btn btn-ink" href="https://wa.me/34682819573?text=Hola%2C%20vengo%20de%20la%20web%20y%20quiero%20una%20valoraci%C3%B3n%20gratuita%20de%20mi%20tatuaje" target="_blank" rel="noopener">Pide tu precio por WhatsApp<span class="dot"><svg aria-hidden="true"><use href="#wa"/></svg></span></a>
       </div>
     </div>
   </section>
 
-  <section class="band panel" id="dudas">
+  <section class="band paper" id="instagram" style="padding-bottom:0">
     <div class="wrap">
-      <div class="section-head">
-        <p class="label"><svg aria-hidden="true"><use href="#spark"/></svg>Preguntas frecuentes</p>
-        <h2>Lo que más nos preguntan</h2>
+      <div class="head head-row">
+        <div style="display:grid;gap:0.8rem">
+          <h2>Síguenos en Instagram.</h2>
+          <a class="ig-handle" href="https://www.instagram.com/ash.studio_eliminacion/" target="_blank" rel="noopener">@ash.studio_eliminacion</a>
+        </div>
+        <a class="btn btn-ink" href="https://www.instagram.com/ash.studio_eliminacion/" target="_blank" rel="noopener">Seguir en Instagram<span class="dot"><svg aria-hidden="true"><use href="#ig"/></svg></span></a>
+      </div>
+      <div class="ig-grid" id="ig-grid">
+        <a href="https://www.instagram.com/ash.studio_eliminacion/" target="_blank" rel="noopener"><img src="img/good-vibes-antebrazo.jpg" loading="lazy" alt="Antes y después de unas letras finas en el antebrazo"></a>
+        <a href="https://www.instagram.com/ash.studio_eliminacion/" target="_blank" rel="noopener"><img src="img/hada-espalda-2-sesiones.jpg" loading="lazy" alt="Antes y después de un hada en la espalda"></a>
+        <a href="https://www.instagram.com/ash.studio_eliminacion/" target="_blank" rel="noopener"><img src="img/marina-gonzalez-laser.jpg" loading="lazy" alt="Marina González con el láser"></a>
+        <a href="https://www.instagram.com/ash.studio_eliminacion/" target="_blank" rel="noopener"><img src="img/latido-cuello-2-sesiones.jpg" loading="lazy" alt="Antes y después de un latido en el cuello"></a>
+        <a href="https://www.instagram.com/ash.studio_eliminacion/" target="_blank" rel="noopener"><img src="img/cartas-dados-2-sesiones.jpg" loading="lazy" alt="Antes y después de unas cartas y dados"></a>
+        <a href="https://www.instagram.com/ash.studio_eliminacion/" target="_blank" rel="noopener"><img src="img/rosas-brazo-3-sesiones.jpg" loading="lazy" alt="Antes y después de unas rosas en el brazo"></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="band paper" id="dudas">
+    <div class="wrap faq-grid">
+      <div class="head" style="margin:0">
+        <h2>Lo que más nos preguntan.</h2>
+        <p class="lede">¿Tienes otra duda? Escríbenos por WhatsApp y te contestamos.</p>
       </div>
       <div class="faq">
         <details><summary>¿Cuántas sesiones necesitaré?</summary><p>Depende del tamaño, la cantidad y el color de la tinta, la antigüedad del tatuaje y tu piel. En la valoración gratuita te damos una estimación para tu caso.</p></details>
@@ -371,13 +442,12 @@ footer .logo { width: 5.5rem; }
     </div>
   </section>
 
-  <section class="band smoke" id="contacto">
+  <section class="band contact-band" id="contacto">
     <div class="wrap contact">
       <div class="cta">
-        <p class="label"><svg aria-hidden="true"><use href="#spark"/></svg>Contacto</p>
-        <h2>Mándanos una foto de tu tatuaje</h2>
+        <h2>Mándanos una foto de tu tatuaje.</h2>
         <p class="lede">Te respondemos por WhatsApp con una primera valoración y el precio por sesión.</p>
-        <div><a class="btn btn-wa" href="https://wa.me/34682819573?text=Hola%2C%20vengo%20de%20la%20web%20y%20quiero%20una%20valoraci%C3%B3n%20gratuita%20de%20mi%20tatuaje" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#wa"/></svg>Escribir por WhatsApp</a></div>
+        <a class="btn btn-lila" href="https://wa.me/34682819573?text=Hola%2C%20vengo%20de%20la%20web%20y%20quiero%20una%20valoraci%C3%B3n%20gratuita%20de%20mi%20tatuaje" target="_blank" rel="noopener">Escribir por WhatsApp<span class="dot"><svg aria-hidden="true"><use href="#wa"/></svg></span></a>
       </div>
       <div class="info">
         <dl>
@@ -398,5 +468,46 @@ footer .logo { width: 5.5rem; }
     <span>Eliminación de tatuajes con láser · Carrer Vila Antònia, 5 · 25007 Lleida</span>
   </div>
 </footer>
+
+<a class="wa-float" href="https://wa.me/34682819573?text=Hola%2C%20vengo%20de%20la%20web%20y%20quiero%20una%20valoraci%C3%B3n%20gratuita%20de%20mi%20tatuaje" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp"><svg aria-hidden="true"><use href="#wa"/></svg></a>
+
+<script>
+// Before/after slider
+document.querySelectorAll('.ba').forEach(function (ba) {
+  var input = ba.querySelector('input');
+  var set = function () { ba.style.setProperty('--pos', input.value + '%'); };
+  input.addEventListener('input', set);
+  set();
+});
+
+// Instagram feed. To make it update on its own, connect the account at behold.so
+// and paste the feed ID below. Until then the grid shows the studio's own photos.
+var BEHOLD_FEED_ID = '';
+(function () {
+  if (!BEHOLD_FEED_ID) return;
+  var grid = document.getElementById('ig-grid');
+  fetch('https://feeds.behold.so/' + BEHOLD_FEED_ID)
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function (data) {
+      var posts = (data.posts || []).slice(0, 6);
+      if (!posts.length) return;
+      grid.innerHTML = '';
+      posts.forEach(function (p) {
+        var src = (p.sizes && p.sizes.medium && p.sizes.medium.mediaUrl) || p.thumbnailUrl || p.mediaUrl;
+        var a = document.createElement('a');
+        a.href = p.permalink; a.target = '_blank'; a.rel = 'noopener';
+        var img = document.createElement('img');
+        img.src = src; img.loading = 'lazy';
+        img.alt = p.altText || (p.prunedCaption ? p.prunedCaption.slice(0, 120) : 'Publicación de ASH Studio en Instagram');
+        a.appendChild(img);
+        if (p.mediaType === 'VIDEO') {
+          a.insertAdjacentHTML('beforeend', '<svg class="reel" aria-hidden="true"><use href="#play"/></svg>');
+        }
+        grid.appendChild(a);
+      });
+    })
+    .catch(function () { /* keep the studio's own photos */ });
+})();
+</script>
 </body>
 </html>
